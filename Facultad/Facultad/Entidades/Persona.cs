@@ -9,7 +9,7 @@ namespace Facultad.Entidades
     public abstract class Persona
     {
         // ATRIBUTOS
-        private string _apellido;
+        protected string _apellido;
         private DateTime _fechaNac;
         protected string _nombre;
 

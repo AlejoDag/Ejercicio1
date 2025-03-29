@@ -19,6 +19,8 @@ namespace Facultad.Entidades
 
         // PROPERTIES HEREDADAS
         public DateTime FechaNacimiento { get => FechaNac; set => FechaNac = value; }
+        public string NombreEmpleado { get => NombrePersona; set => NombrePersona = value; }
+        public string ApellidoEmpleado { get => Apellido; set => Apellido = value; }
 
         // PROPERTIES CUSTOM
         public int Antiguedad { get => (DateTime.Now - _fechaIngreso).Days / 365; }
@@ -29,6 +31,7 @@ namespace Facultad.Entidades
 
         }
 
+        public abstract string ListarEmpleados(bool listarConId);
 
 
     }

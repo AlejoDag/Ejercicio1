@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.SqlServer.Server;
-using static System.Net.Mime.MediaTypeNames;
+using System.Windows.Forms;
 
 namespace Facultad
 {

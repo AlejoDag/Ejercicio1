@@ -9,7 +9,10 @@ namespace Negocio
 {
     public class Docente : Empleado
     {
-
+        public override string ListarEmpleados(bool listarConId)
+        {
+            return $"{_legajo} - {_nombre} {_apellido}";
+        }
 
     }
 }

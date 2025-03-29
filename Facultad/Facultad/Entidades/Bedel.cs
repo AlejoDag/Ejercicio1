@@ -13,5 +13,10 @@ namespace Negocio
 
         public string Apodo { get => _apodo; set => _apodo = value; }
 
+        public override string ListarEmpleados(bool listarConId)
+        {
+            return $"{_legajo} - {_nombre} {_apellido}";
+        }
+
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.csproj.AssemblyReference.cache
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.Form1.resources
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.FormAlumnos.resources
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.FormEmpleado.resources
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.csproj.GenerateResource.cache
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.csproj.CoreCompileInputs.cache
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\bin\Debug\Facultad.exe.config
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\bin\Debug\Facultad.exe
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\bin\Debug\Facultad.pdb
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.exe
+C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\obj\Debug\Facultad.pdb
