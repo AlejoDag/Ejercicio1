@@ -1,103 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Facultad\\FormInicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Facultad\\Persistencia\\PersistenciaUtils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\formempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersistenciaUtils.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "RelativeDocumentMoniker": "Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "RelativeToolTip": "Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T22:51:16.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAlumnos.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormAlumnos.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
-              "RelativeToolTip": "Facultad\\FormAlumnos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T22:43:18.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormInicio.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
-              "RelativeToolTip": "Facultad\\FormInicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T22:43:06.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormEmpleado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormEmpleado.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormEmpleado.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormEmpleado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Facultad\\FormEmpleado.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T21:57:38.814Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAlumnos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormAlumnos.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Facultad\\FormAlumnos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:17:51.915Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

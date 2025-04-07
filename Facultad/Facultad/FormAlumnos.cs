@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Facultad.Persistencia;
+using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,8 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Negocio;
-using Facultad.Persistencia;
 
 namespace Facultad
 {
@@ -19,13 +19,6 @@ namespace Facultad
             InitializeComponent();
         }
 
-        private void txtCodigo_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
-            {
-                e.Handled = true; // Bloquea la tecla no permitida
-            }
-        }
         private void btnListar_Click(object sender, EventArgs e)
         {
             PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
@@ -33,15 +26,15 @@ namespace Facultad
 
             foreach (String registro in listado)
             {
-                Alumno alumno = new Alumno(registro);
+                Alumno alumno = new Alumno(registro); 
                 lstAlumnos.Items.Add(alumno);
             }
         }
 
         private void txtModificar_Click(object sender, EventArgs e)
         {
-            var itemSeleccionado = lstAlumnos.SelectedItems;
-            Alumno alumno = (Alumno)itemSeleccionado[0];
+             var itemSeleccionado = lstAlumnos.SelectedItems;
+             Alumno alumno = (Alumno)itemSeleccionado[0];
 
             txtNombre.Text = alumno.Nombre;
             txtApellido.Text = alumno.Apellido;

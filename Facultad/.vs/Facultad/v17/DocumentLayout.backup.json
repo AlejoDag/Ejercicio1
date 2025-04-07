@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\entidades\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC9D6B3-9556-47D1-BDC8-988AA394BCFC}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\facultad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Persona.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Persona.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Persona.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Persona.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:12:13.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Facultad.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Facultad.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Facultad.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Facultad.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Facultad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T21:09:55.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeDocumentMoniker": "Facultad\\Entidades\\Alumno.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Alumno.cs",
-              "RelativeToolTip": "Facultad\\Entidades\\Alumno.cs",
-              "ViewState": "AgIAAAoAAAAANDMzMzMLwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:40:36.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormAlumnos.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormAlumnos.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
-              "RelativeToolTip": "Facultad\\FormAlumnos.cs",
-              "ViewState": "AgIAABQAAACQmZmZmZk1wDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T20:33:10.372Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
