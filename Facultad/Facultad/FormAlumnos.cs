@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Negocio;
+using Facultad.Persistencia;
 
 namespace Facultad
 {
@@ -23,6 +25,28 @@ namespace Facultad
             {
                 e.Handled = true; // Bloquea la tecla no permitida
             }
+        }
+        private void btnListar_Click(object sender, EventArgs e)
+        {
+            PersistenciaUtils persistenciaUtils = new PersistenciaUtils();
+            List<String> listado = persistenciaUtils.LeerRegistro("alumnos.csv");
+
+            foreach (String registro in listado)
+            {
+                Alumno alumno = new Alumno(registro);
+                lstAlumnos.Items.Add(alumno);
+            }
+        }
+
+        private void txtModificar_Click(object sender, EventArgs e)
+        {
+            var itemSeleccionado = lstAlumnos.SelectedItems;
+            Alumno alumno = (Alumno)itemSeleccionado[0];
+
+            txtNombre.Text = alumno.Nombre;
+            txtApellido.Text = alumno.Apellido;
+            dtpFechaNacimiento.Value = alumno.FechaNac;
+
         }
     }
 }
