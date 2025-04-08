@@ -16,5 +16,26 @@ namespace Facultad
         {
             InitializeComponent();
         }
+        private void txtLegajo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Bloquea la tecla no permitida
+            }
+        }
+
+        private void buttonSeleccionar_Click(object sender, EventArgs e)
+        {
+            // Verificar si hay un item seleccionado
+            if (Roles.SelectedItem != null)
+            {
+                // Copiar el item seleccionado al TextBox
+                txtRol.Text = Roles.SelectedItem.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecciona un ítem del ListBox.");
+            }
+        }
     }
 }

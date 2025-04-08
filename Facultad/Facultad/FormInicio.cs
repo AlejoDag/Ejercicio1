@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -38,9 +39,42 @@ namespace Facultad
             // 1.4) Expira password?
 
             // 2) Redirigir
-            this.Hide();
-            FormMenu formMenu = new FormMenu();
-            formMenu.ShowDialog();
+            foreach (string linea in File.ReadAllLines(@"C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\Datos\")) 
+            {
+                var campos = linea.Split(',');
+
+                string usuarioCsv = campos[0];
+                string passCsv = campos[1];
+                bool primerLogin = bool.Parse(campos[2]);
+                bool passExpira = bool.Parse(campos[3]);
+                bool encontrado = false;
+
+                if (txtUsuario.Text == usuarioCsv && txtPassword.Text == passCsv)
+                {
+                    encontrado = true;
+
+                    if (primerLogin)
+                    {
+                        MessageBox.Show("Debe cambiar su contraseña al ser su primer ingreso.");
+                        return;
+                    }
+
+                    if (passExpira)
+                    {
+                        MessageBox.Show("Su contraseña ha expirado.");
+                        return;
+                    }
+
+                    this.Hide();
+                    FormMenu formMenu = new FormMenu();
+                    formMenu.ShowDialog();
+                }
+                if (!encontrado)
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos.");
+                }
+            }
+
         }
 
         private List<String> obtenerUsuarios()

@@ -9,7 +9,7 @@ namespace Facultad.Persistencia
 {
     public class PersistenciaUtils
     {
-        string archivoCsv = @"C:\Users\p044755\Documents\GitHub\ejercicio01_Facultad\Facultad\Facultad\Datos\";
+        string archivoCsv = @"C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\Datos\";
         public List<String> LeerRegistro(String nombreArchivo)
         {
             archivoCsv = archivoCsv + nombreArchivo; // Cambia esta ruta al archivo CSV que deseas leer
