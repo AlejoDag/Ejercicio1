@@ -45,21 +45,22 @@ namespace Facultad
 
                 string usuarioCsv = campos[0];
                 string passCsv = campos[1];
-                bool primerLogin = bool.Parse(campos[2]);
-                bool passExpira = bool.Parse(campos[3]);
+                DateTime fechaPrimerLogin = DateTime.Parse(campos[2]);
+                DateTime fechaExpiracionPass = DateTime.Parse(campos[3]);
                 bool encontrado = false;
 
                 if (txtUsuario.Text == usuarioCsv && txtPassword.Text == passCsv)
                 {
                     encontrado = true;
 
-                    if (primerLogin)
+                    if (fechaPrimerLogin == DateTime.MinValue)
                     {
                         MessageBox.Show("Debe cambiar su contraseña al ser su primer ingreso.");
                         return;
                     }
 
-                    if (passExpira)
+                    // Validación: ¿la contraseña expiró?
+                    if (fechaExpiracionPass < DateTime.Now)
                     {
                         MessageBox.Show("Su contraseña ha expirado.");
                         return;

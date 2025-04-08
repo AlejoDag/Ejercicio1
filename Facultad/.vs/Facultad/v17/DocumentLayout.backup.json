@@ -1,12 +1,70 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersistenciaUtils.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
+              "RelativeDocumentMoniker": "Facultad\\Persistencia\\PersistenciaUtils.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
+              "RelativeToolTip": "Facultad\\Persistencia\\PersistenciaUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T22:03:00.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Facultad\\FormInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:49:51.557Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormInicio.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
+              "RelativeToolTip": "Facultad\\FormInicio.cs",
+              "ViewState": "AgIAAC4AAAAAzMzMzMwUwEUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:49:39.718Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

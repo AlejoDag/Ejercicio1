@@ -34,6 +34,7 @@ namespace Facultad
             this.btnIngresar = new System.Windows.Forms.Button();
             this.lll = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnCambiarContraseña = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -41,7 +42,7 @@ namespace Facultad
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(50, 51);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 15);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuario";
             // 
@@ -67,7 +68,7 @@ namespace Facultad
             this.lll.AutoSize = true;
             this.lll.Location = new System.Drawing.Point(53, 119);
             this.lll.Name = "lll";
-            this.lll.Size = new System.Drawing.Size(70, 15);
+            this.lll.Size = new System.Drawing.Size(61, 13);
             this.lll.TabIndex = 5;
             this.lll.Text = "Contraseña";
             // 
@@ -78,17 +79,27 @@ namespace Facultad
             this.txtPassword.Size = new System.Drawing.Size(100, 20);
             this.txtPassword.TabIndex = 6;
             // 
-            // Form1
+            // btnCambiarContraseña
+            // 
+            this.btnCambiarContraseña.Location = new System.Drawing.Point(206, 189);
+            this.btnCambiarContraseña.Name = "btnCambiarContraseña";
+            this.btnCambiarContraseña.Size = new System.Drawing.Size(118, 22);
+            this.btnCambiarContraseña.TabIndex = 7;
+            this.btnCambiarContraseña.Text = "Cambiar contraseña";
+            this.btnCambiarContraseña.UseVisualStyleBackColor = true;
+            // 
+            // FormInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCambiarContraseña);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lll);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FormInicio";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -102,6 +113,7 @@ namespace Facultad
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Label lll;
         private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnCambiarContraseña;
     }
 }
 
