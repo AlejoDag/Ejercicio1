@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Entidades\Alumno.cs" />
     <Compile Include="Entidades\Bedel.cs" />
+    <Compile Include="Entidades\Credencial.cs" />
     <Compile Include="Entidades\Directivo.cs" />
     <Compile Include="Entidades\Docente.cs" />
     <Compile Include="Entidades\Empleado.cs" />

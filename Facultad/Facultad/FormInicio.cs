@@ -1,5 +1,6 @@
 ﻿using Facultad.Persistencia;
 using Negocio;
+using Facultad.Entidades;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,50 +40,105 @@ namespace Facultad
             // 1.4) Expira password?
 
             // 2) Redirigir
-            foreach (string linea in File.ReadAllLines(@"C:\Users\--\Desktop\Alejo\CAI\GitHub\Ejercicio1\Facultad\Facultad\Datos\")) 
+            bool permiteAvanzar = true;
+
+            if (txtUsuario.Text == "")
             {
-                var campos = linea.Split(',');
+                permiteAvanzar = false;
+                MessageBox.Show("El nombre de usuario no puede estar vacio");
+            }
 
-                string usuarioCsv = campos[0];
-                string passCsv = campos[1];
-                DateTime fechaPrimerLogin = DateTime.Parse(campos[2]);
-                DateTime fechaExpiracionPass = DateTime.Parse(campos[3]);
-                bool encontrado = false;
+            if (txtPassword.Text == "")
+            {
+                permiteAvanzar = false;
+                MessageBox.Show("La contraseña no puede estar vacia.");
+            }
 
-                if (txtUsuario.Text == usuarioCsv && txtPassword.Text == passCsv)
+            if (txtUsuario.Text.Length < 6 || txtPassword.Text.Length < 6)
+            {
+                permiteAvanzar = false;
+                MessageBox.Show("Usuario y contraseña deben tener al menos 6 caracteres.");
+            }
+
+            permiteAvanzar = validarCredenciales(txtUsuario.Text, txtPassword.Text);
+
+            if (permiteAvanzar)
+            {
+                validarEstadoClave(txtUsuario.Text);
+            }
+
+            // 2) Redirigir
+            if (permiteAvanzar)
+            {
+                this.Hide();
+                FormMenu formMenu = new FormMenu();
+                formMenu.ShowDialog();
+            }
+        }
+
+        private Boolean validarCredenciales(String usuarioLogin, string passwordLogin)
+        {
+            Credencial credencialLogin = buscarUsuario(usuarioLogin);
+            if (credencialLogin == null)
+            {
+                return false;
+                MessageBox.Show("Usuario no existe");
+            }
+            else
+            {
+                if (!credencialLogin.Password.Equals(passwordLogin))
                 {
-                    encontrado = true;
-
-                    if (fechaPrimerLogin == DateTime.MinValue)
-                    {
-                        MessageBox.Show("Debe cambiar su contraseña al ser su primer ingreso.");
-                        return;
-                    }
-
-                    // Validación: ¿la contraseña expiró?
-                    if (fechaExpiracionPass < DateTime.Now)
-                    {
-                        MessageBox.Show("Su contraseña ha expirado.");
-                        return;
-                    }
-
-                    this.Hide();
-                    FormMenu formMenu = new FormMenu();
-                    formMenu.ShowDialog();
+                    return false;
+                    MessageBox.Show("Contraseña incorrecta");
                 }
-                if (!encontrado)
-                {
-                    MessageBox.Show("Usuario o contraseña incorrectos.");
-                }
+            }
+
+            return true;
+        }
+
+        private void validarEstadoClave(String usuarioLogin)
+        {
+            Credencial credencialLogin = buscarUsuario(usuarioLogin);
+
+            if (credencialLogin.FechaUltimoIngreso == null)
+            {
+                // Redirigir al cambio de contraseña
+            }
+
+            if (credencialLogin.FechaUltimoIngreso < DateTime.Today.AddDays(-30))
+            {
+                // Redirigir al cambio de contraseña
             }
 
         }
 
-        private List<String> obtenerUsuarios()
+        private Credencial buscarUsuario(String usuarioLogin)
+        {
+            Credencial credencialLogin = null;
+
+            foreach (Credencial credencial in obtenerCredenciales())
+            {
+                if (credencial.Usuario.Equals(usuarioLogin))
+                {
+                    credencialLogin = credencial;
+                }
+            }
+
+            return credencialLogin;
+        }
+
+        private List<Credencial> obtenerCredenciales()
         {
             List<String> listado = persistenciaUtils.LeerRegistro("credenciales.csv");
+            List<Credencial> listadoCredenciales = new List<Credencial>();
 
-            return listado;
+            foreach (String registro in listado)
+            {
+                Credencial credencial = new Credencial(registro);
+                listadoCredenciales.Add(credencial);
+            }
+
+            return listadoCredenciales;
         }
 
     }

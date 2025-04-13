@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\persistencia\\persistenciautils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formalumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|c:\\users\\--\\desktop\\alejo\\cai\\github\\ejercicio1\\facultad\\facultad\\entidades\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\entidades\\credencial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\facultad\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B1442D76-1FF7-4F30-9A38-1093A1B057BA}|Facultad\\Facultad.csproj|solutionrelative:facultad\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +38,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersistenciaUtils.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "RelativeDocumentMoniker": "Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "RelativeToolTip": "Facultad\\Persistencia\\PersistenciaUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABnAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Credencial.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Credencial.cs",
+              "RelativeDocumentMoniker": "Facultad\\Entidades\\Credencial.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\Entidades\\Credencial.cs",
+              "RelativeToolTip": "Facultad\\Entidades\\Credencial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T22:03:00.977Z",
+              "WhenOpened": "2025-04-13T21:28:03.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormInicio.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
+              "RelativeToolTip": "Facultad\\FormInicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:05:49.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FormAlumnos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormAlumnos.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Facultad\\FormAlumnos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:58:03.549Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormAlumnos.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormAlumnos.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormAlumnos.cs",
+              "RelativeToolTip": "Facultad\\FormAlumnos.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:57:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormMenu.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Facultad\\FormMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:07:25.46Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormMenu.cs",
+              "RelativeDocumentMoniker": "Facultad\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormMenu.cs",
+              "RelativeToolTip": "Facultad\\FormMenu.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T16:07:16.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FormInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
               "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
@@ -48,19 +127,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T19:49:51.557Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormInicio.cs",
-              "DocumentMoniker": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
-              "RelativeDocumentMoniker": "Facultad\\FormInicio.cs",
-              "ToolTip": "C:\\Users\\--\\Desktop\\Alejo\\CAI\\GitHub\\Ejercicio1\\Facultad\\Facultad\\FormInicio.cs",
-              "RelativeToolTip": "Facultad\\FormInicio.cs",
-              "ViewState": "AgIAAC4AAAAAzMzMzMwUwEUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T19:49:39.718Z",
-              "EditorCaption": ""
             }
           ]
         }
