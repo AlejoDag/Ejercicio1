@@ -1,4 +1,5 @@
-﻿using Facultad.Persistencia;
+﻿using Facultad.Entidades;
+using Facultad.Persistencia;
 using Negocio;
 using System;
 using System.Collections.Generic;
@@ -26,15 +27,15 @@ namespace Facultad
 
             foreach (String registro in listado)
             {
-                Alumno alumno = new Alumno(registro); 
+                Alumno alumno = new Alumno(registro);
                 lstAlumnos.Items.Add(alumno);
             }
         }
 
         private void txtModificar_Click(object sender, EventArgs e)
         {
-             var itemSeleccionado = lstAlumnos.SelectedItems;
-             Alumno alumno = (Alumno)itemSeleccionado[0];
+            var itemSeleccionado = lstAlumnos.SelectedItems;
+            Alumno alumno = (Alumno)itemSeleccionado[0];
 
             txtNombre.Text = alumno.Nombre;
             txtApellido.Text = alumno.Apellido;
