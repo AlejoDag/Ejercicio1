@@ -13,7 +13,7 @@ namespace Facultad.Entidades
 {
     public class Reporte
     {
-        
+        public string NombreAlumno { get; set; }
         public string NombreCarrera { get; set; }
         public int MateriasAprobadas { get; set; }
         public int MateriasFaltantes { get; set; }
@@ -29,7 +29,7 @@ namespace Facultad.Entidades
         public Reporte(Alumno alumno, Carrera carrera)
         {
             this.NombreCarrera = carrera.Nombre;
-
+            
             List<Examen> examenes = alumno.Examenes;
             List<Materia> materiasDeCarrera = carrera.Materias;
 
@@ -37,25 +37,20 @@ namespace Facultad.Entidades
 
             foreach (Materia materia in materiasDeCarrera)
             {
-                bool estaAprobada = false;
-
                 foreach (Examen examen in examenes)
                 {
                     if (examen.IdMateria == materia.Id && examen.Nota >= 4)
                     {
-                        estaAprobada = true;
+                        aprobadas++;
                         break;
                     }
                 }
 
-                if (estaAprobada)
-                {
-                    aprobadas++;
-                }
             }
 
             this.MateriasAprobadas = aprobadas;
             this.MateriasFaltantes = materiasDeCarrera.Count - aprobadas;
+            this.NombreAlumno = alumno.Nombre + alumno.Apellido;
         }
     }
 }

@@ -45,26 +45,20 @@ namespace Facultad.Entidades
                     continue; // Saltar encabezado
                 }
 
-                string[] datos = registro.Split(';');
-
-                string carrerasTexto = datos[6];
+                string carrerasTexto = registro.Split(';')[6];
 
                 string[] idsCarreras = carrerasTexto.Split(',');
 
                 foreach (string id in idsCarreras)
                 {
-                    // Trim para eliminar espacios y comparar como int
-                    if (int.TryParse(id.Trim(), out int idCarreraMateria))
+                    // Trim para eliminar espacios
+                    if (int.Parse(id) == idCarrera)
                     {
-                        if (idCarreraMateria == idCarrera)
-                        {
-                            materias.Add(new Materia(registro));
-                            break;
-                        }
+                        materias.Add(new Materia(registro));
+                        break;
                     }
                 }
             }
-
             return materias;
         }
 

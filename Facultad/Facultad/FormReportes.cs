@@ -38,16 +38,37 @@ namespace Facultad
 
             foreach (Reporte reporte in reporteAlumno)
             {
-                string carrera = reporte.NombreCarrera;
-                int cantAprobadas = reporte.MateriasAprobadas;
-                int cantFaltantes = reporte.MateriasFaltantes;
-                double porcentajeAvance = reporte.PorcentajeAvance;
-
-                mensaje += $"{carrera}\n" +
-                           $"Materias Aprobadas: {cantAprobadas}\n" +
-                           $"Materias Faltantes: {cantFaltantes}\n" +
-                           $"Porcentaje de avance: {porcentajeAvance:F0}%\n" +
+                mensaje += $"{reporte.NombreCarrera}\n" +
+                           $"Materias Aprobadas: {reporte.MateriasAprobadas}\n" +
+                           $"Materias Faltantes: {reporte.MateriasFaltantes}\n" +
+                           $"Porcentaje de avance: {reporte.PorcentajeAvance:F0}%\n" +
                            $"--------------------------\n";
+            }
+
+            MessageBox.Show(mensaje);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Reporte reporte = generarReporteAlumnoConMasMaterias();
+            
+            string mensaje =
+                $"Alumno: {reporte.NombreAlumno}\n" +
+                $"Carreras: {reporte.NombreCarrera}\n" +
+                $"Materias Aprobadas: {reporte.MateriasAprobadas}";
+
+            MessageBox.Show(mensaje);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            List<string> materias = buscarMateriasAlumno(74508);
+
+            string mensaje = "Perdió las siguientes materias\n";
+
+            foreach (string materia in materias)
+            {
+                mensaje += "- " + materia + "\n";
             }
 
             MessageBox.Show(mensaje);
@@ -75,6 +96,39 @@ namespace Facultad
             return reportes;
         }
 
+        private Reporte generarReporteAlumnoConMasMaterias()
+        {
+            Alumno alumno = BuscarAlumnoConMasCarrerasYMateriasAprobadas();
+
+            string nombreCarrera = "";
+            
+            foreach (Carrera carrera in alumno.Carreras)
+            {
+                if (nombreCarrera != "")
+                {
+                    nombreCarrera += " y "; // Añadir " y " entre los nombres de las carreras
+                }
+                nombreCarrera += carrera.Nombre;
+            }
+            // Crear una lista de IDs de materias aprobadas (sin repetir)
+            List<int> materiasAprobadas = new List<int>();
+
+            foreach (Examen examen in alumno.Examenes)
+            {
+                if (examen.Nota >= 4 && !materiasAprobadas.Contains(examen.IdMateria))
+                {
+                    materiasAprobadas.Add(examen.IdMateria);
+                }
+            }
+
+            Reporte reporte = new Reporte(alumno, alumno.Carreras.First())
+            {
+                NombreAlumno = alumno.Nombre + " " + alumno.Apellido,
+                NombreCarrera = nombreCarrera,
+                MateriasAprobadas = materiasAprobadas.Count,
+            };
+            return reporte;
+        }
 
         private Alumno buscarAlumno(int codigo)
         {
@@ -91,6 +145,71 @@ namespace Facultad
             }
 
             return alumnoBuscado;
+        }
+
+        private Alumno BuscarAlumnoConMasCarrerasYMateriasAprobadas()
+        {
+            Alumno mejorAlumno = null;
+            int maxAprobadas = 0;
+            
+            foreach (Alumno alumno in uba.Alumnos)
+            {
+                if (alumno.Carreras.Count > 1)
+                {
+                    // Contamos materias únicas aprobadas sin duplicados
+                    List<int> materiasAprobadas = new List<int>();
+
+                    foreach (Examen ex in alumno.Examenes)
+                    {
+                        if (ex.Nota >= 4 && !materiasAprobadas.Contains(ex.IdMateria))
+                        {
+                            materiasAprobadas.Add(ex.IdMateria);
+                        }
+                    }
+
+                    if (materiasAprobadas.Count > maxAprobadas)
+                    {
+                        maxAprobadas = materiasAprobadas.Count;
+                        mejorAlumno = alumno;
+                    }
+                }
+            }
+             return mejorAlumno;
+        }
+
+        private List<string> buscarMateriasAlumno(int idAlumno)
+        {
+            Alumno alumno = buscarAlumno(idAlumno);
+            List<string> materiasDesregularizadas = new List<string>();
+           
+            foreach (Examen ex in alumno.Examenes)
+            {
+                Materia materia = null;
+                
+                if(ex.Nota < 4 && (ex.Fecha.AddYears(2) < DateTime.Today))
+                {
+                    foreach(Carrera carrera in alumno.Carreras)
+                    {
+                        foreach(Materia m in carrera.Materias)
+                        {
+                            if(m.Id == ex.IdMateria)
+                            {
+                                materia = m;
+                                break;
+                            }
+                        }
+
+                        if (materia != null)
+                            break;
+                    }
+
+                    if (materia != null)
+                    {
+                        materiasDesregularizadas.Add(materia.Id + " - " + materia.Nombre);
+                    }
+                }
+            }
+            return materiasDesregularizadas;
         }
     }
 }
